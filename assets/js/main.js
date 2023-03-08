@@ -10,7 +10,6 @@ const passengerKm = Number(prompt('please enter the number of kilometers you hav
 //calcolare il prezzo totale del viaggio considerando che:
     //0.21€ per ogni km
     let totalPrice = (passengerKm * 0.21);
-    console.log(totalPrice);
 
 
     //SE il passeggero è <18 lo sconto sarà del 20%
@@ -24,9 +23,8 @@ const passengerKm = Number(prompt('please enter the number of kilometers you hav
     }
 
 //indicare il prezzo tipo 15.99€
-
+//totalPrice=toFixed(totalPrice);
+totalPrice = totalPrice.toFixed(2)
 
 document.getElementById('passenger_name').innerHTML = passengerName;
-document.getElementById('final_total_price').innerHTML = totalPrice;
-
-//let final_total_price=
+document.getElementById('total_price').innerHTML = totalPrice;
