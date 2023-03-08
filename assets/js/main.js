@@ -24,3 +24,9 @@ const passengerKm = Number(prompt('please enter the number of kilometers you hav
     }
 
 //indicare il prezzo tipo 15.99€
+
+
+document.getElementById('passenger_name').innerHTML = passengerName;
+document.getElementById('final_total_price').innerHTML = totalPrice;
+
+//let final_total_price=
