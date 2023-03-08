@@ -1,6 +1,12 @@
 //chiedere il nome al passeggero
+const passengerName = prompt('please enter your name');
+
 //chiedere l'età al passeggero
+const passengerAge = prompt('please enter your age');
+
 //chiedere il numero di chilometri che vuole percorrere
+const passengerKm = Number(prompt('please enter the number of kilometers you have to travel'));
+
 
 //calcolare il prezzo totale del viaggio considerando che:
     //0.21€ per ogni km 
