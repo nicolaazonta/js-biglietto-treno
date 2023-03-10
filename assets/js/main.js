@@ -15,10 +15,7 @@ const passengerKm = Number(prompt('please enter the number of kilometers you hav
     //SE il passeggero è <18 lo sconto sarà del 20%
     if(passengerAge < 18) { 
         totalPrice=totalPrice - (totalPrice / 100 * 20);
-    }
-
-    //SE il passeggero è >65 lo sconto sarà del 40%
-    if(passengerAge > 65) { 
+    } else if(passengerAge > 65) { //SE il passeggero è >65 lo sconto sarà del 40%
         totalPrice=totalPrice - (totalPrice / 100 * 40);
     }
 
